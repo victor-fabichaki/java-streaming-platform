@@ -1,0 +1,19 @@
+# Compiled class files
+bin/
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.iml
+
+# Diagrams and working files
+*.drawio
+test/
+lib/
