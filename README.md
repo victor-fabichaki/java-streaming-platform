@@ -11,15 +11,6 @@ O **Sonora** é uma plataforma de streaming de áudio desenvolvida em Java, que 
 
 ---
 
-### Índice (Português)
-1. [Funcionalidades Principais](#-funcionalidades-principais)
-2. [Conceitos de POO Aplicados](#-conceitos-de-poo-aplicados)
-3. [Estrutura do Projeto](#-estrutura-do-projeto)
-4. [Como Compilar e Executar](#-como-compilar-e-executar)
-5. [Demonstração e Guia de Uso](#-demonstração-e-guia-de-uso)
-
----
-
 ### Funcionalidades Principais
 
 - **Catálogo de Conteúdos:**
@@ -97,15 +88,6 @@ java-streaming-platform/
 # English
 
 **Sonora** is a Java audio streaming platform simulation, designed to mirror core mechanics of modern streaming services like Spotify or Apple Music. The system manages multimedia content (music and podcasts), commercial advertisements, user accounts with diverse subscription tiers, intelligent playlist playback with ad insertion, and comprehensive monthly revenue calculation.
-
----
-
-### Table of Contents (English)
-1. [Core Features](#-core-features)
-2. [OOP Concepts Applied](#-oop-concepts-applied)
-3. [Project Structure](#-project-structure)
-4. [Compilation and Execution](#-compilation-and-execution)
-5. [Usage and Interactive Demo](#-usage-and-interactive-demo)
 
 ---
 
