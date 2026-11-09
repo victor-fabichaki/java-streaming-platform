@@ -5,19 +5,13 @@
 
 ---
 
-## 🌐 Idiomas / Languages
-- [Português](#-português)
-- [English](#-english)
-
----
-
-# 🇧🇷 Português
+# Português
 
 O **Sonora** é uma plataforma de streaming de áudio desenvolvida em Java, que simula o funcionamento de serviços como Spotify ou Apple Music. O sistema gerencia conteúdos de áudio (músicas e podcasts), anúncios comerciais, perfis de usuários com diferentes modalidades de planos de assinatura, reprodução inteligente de playlists com inserção de anúncios e faturamento/receita mensal.
 
 ---
 
-### 📋 Índice (Português)
+### Índice (Português)
 1. [Funcionalidades Principais](#-funcionalidades-principais)
 2. [Conceitos de POO Aplicados](#-conceitos-de-poo-aplicados)
 3. [Estrutura do Projeto](#-estrutura-do-projeto)
@@ -26,7 +20,7 @@ O **Sonora** é uma plataforma de streaming de áudio desenvolvida em Java, que 
 
 ---
 
-### 🚀 Funcionalidades Principais
+### Funcionalidades Principais
 
 - **Catálogo de Conteúdos:**
   - Cadastro e consulta de **Músicas** (com artista, álbum e duração).
@@ -47,7 +41,7 @@ O **Sonora** é uma plataforma de streaming de áudio desenvolvida em Java, que 
 
 ---
 
-### 🧠 Conceitos de POO Aplicados
+### Conceitos de POO Aplicados
 
 O projeto foi estruturado seguindo rigorosamente as boas práticas da **Programação Orientada a Objetos**:
 
@@ -73,7 +67,7 @@ O projeto foi estruturado seguindo rigorosamente as boas práticas da **Programa
 
 ---
 
-### 📂 Estrutura do Projeto
+### Estrutura do Projeto
 
 ```text
 java-streaming-platform/
@@ -100,58 +94,13 @@ java-streaming-platform/
 
 ---
 
-### 💻 Como Compilar e Executar
-
-#### Pré-requisitos
-- **Java JDK 17** ou superior instalado (recomendado Java 21).
-
-#### Compilação
-
-No terminal, a partir da raiz do repositório:
-
-**Windows (PowerShell / Prompt de Comando):**
-```powershell
-javac -d bin -encoding UTF-8 (Get-ChildItem src/*.java)
-```
-*Ou usando o CMD tradicional:*
-```cmd
-javac -d bin -encoding UTF-8 src/*.java
-```
-
-**Linux / macOS (Bash):**
-```bash
-javac -d bin -encoding UTF-8 src/*.java
-```
-
-#### Execução
-
-```bash
-java -cp bin App
-```
-
----
-
-### 🎮 Demonstração e Guia de Uso
-
-Ao iniciar a aplicação, um menu interativo com 18 opções será exibido no terminal:
-- Use a **Opção 18** (`Executar demonstração completa dos requisitos`) para disparar uma demonstração automatizada de todas as regras de negócio:
-  1. Cálculo de receita inicial.
-  2. Execução de playlist mista com usuário gratuito (inserção de anúncios a cada 2 faixas).
-  3. Atualização da receita baseada nas impressões veiculadas.
-  4. Contadores de reproduções acumuladas.
-  5. Filtro de episódios por apresentador.
-  6. Resumos dos planos cadastrados.
-- Pressione **0** a qualquer momento para sair.
-
----
-
-# 🇺🇸 English
+# English
 
 **Sonora** is a Java audio streaming platform simulation, designed to mirror core mechanics of modern streaming services like Spotify or Apple Music. The system manages multimedia content (music and podcasts), commercial advertisements, user accounts with diverse subscription tiers, intelligent playlist playback with ad insertion, and comprehensive monthly revenue calculation.
 
 ---
 
-### 📋 Table of Contents (English)
+### Table of Contents (English)
 1. [Core Features](#-core-features)
 2. [OOP Concepts Applied](#-oop-concepts-applied)
 3. [Project Structure](#-project-structure)
@@ -160,7 +109,7 @@ Ao iniciar a aplicação, um menu interativo com 18 opções será exibido no te
 
 ---
 
-### 🚀 Core Features
+### Core Features
 
 - **Media Catalog Management:**
   - Register and retrieve **Music** (with artist, album, and length).
@@ -181,7 +130,7 @@ Ao iniciar a aplicação, um menu interativo com 18 opções será exibido no te
 
 ---
 
-### 🧠 OOP Concepts Applied
+### OOP Concepts Applied
 
 The platform is designed around fundamental **Object-Oriented Programming (OOP)** principles:
 
@@ -207,7 +156,7 @@ The platform is designed around fundamental **Object-Oriented Programming (OOP)*
 
 ---
 
-### 📂 Project Structure
+### Project Structure
 
 ```text
 java-streaming-platform/
@@ -231,48 +180,3 @@ java-streaming-platform/
     ├── Reproduzivel.java     # Playable entity contract
     └── Usuario.java          # User profile and social relations
 ```
-
----
-
-### 💻 Compilation and Execution
-
-#### Prerequisites
-- **Java JDK 17** or later (JDK 21 recommended).
-
-#### Compile
-
-Run the following command from the repository root:
-
-**Windows (PowerShell):**
-```powershell
-javac -d bin -encoding UTF-8 (Get-ChildItem src/*.java)
-```
-*Or using standard Command Prompt (CMD):*
-```cmd
-javac -d bin -encoding UTF-8 src/*.java
-```
-
-**Linux / macOS (Bash):**
-```bash
-javac -d bin -encoding UTF-8 src/*.java
-```
-
-#### Run
-
-```bash
-java -cp bin App
-```
-
----
-
-### 🎮 Usage and Interactive Demo
-
-When launched, the CLI provides an interactive menu with 18 options:
-- Select **Option 18** (`Executar demonstração completa dos requisitos`) to run the automated end-to-end verification showcasing all business rules and mechanics:
-  1. Base monthly revenue calculation.
-  2. Free tier playlist playback with automated ad insertion every 2 songs.
-  3. Incremental revenue calculation post-ad impression.
-  4. Content playback hit counters.
-  5. Host-based podcast filtering.
-  6. Plan summaries.
-- Enter **0** at any time to exit the program.
